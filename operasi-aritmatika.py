@@ -21,12 +21,18 @@ print(a, '/', b, '=', hasil)
 hasil = a % b
 print(a, '%', b, '=', hasil)
 
-# sisa bagi **
+# pangkat **
 hasil = a ** b
 print(a, '**', b, '=', hasil)
 
-# sisa bagi //
+# pembagian bulat //
 hasil = a // b
 print(a, '//', b, '=', hasil)
 
 
+x = 3
+y = 5
+z = 7
+
+hasil = x + y * z // x - z ** y / x % z
+print(x,'+',y,'*',z,'//',x,'-',z,'**',y,'/',x,'%',z, '=', hasil)
