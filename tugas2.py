@@ -26,3 +26,27 @@ isCorrect = isLebih and isKurang
 print("angka yang dimasukkan", inputUser, ':', isCorrect)
 
 # Tugas baru
+# ----0++++5----8++++11----
+print("===TUGAS BARU===")
+inputUser = float(input("masukan nilai anda:"))
+
+nilai1 = inputUser > 0 and inputUser < 5
+print(nilai1)
+
+nilai2 = inputUser > 8 and inputUser < 11
+print(nilai2)
+
+hasil = nilai1 or nilai2
+print(hasil)
+
+print("===IRISAN===")
+inputUser = float(input("masukan nilai anda:"))
+
+nilai1 = inputUser < 0 or inputUser > 5
+print(nilai1)
+
+nilai2 = inputUser < 8 or inputUser > 11
+print(nilai2)
+
+hasil = nilai1 and nilai2
+print(hasil)
