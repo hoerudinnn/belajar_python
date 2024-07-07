@@ -16,3 +16,11 @@ print("panjang dari " + nama_lengkap + " = " + str(panjang))
 d = "Ucup"
 status = d in nama_lengkap
 print(d + " ada di " + nama_lengkap + " = " + str(status))
+
+D = "D"
+status = D in nama_lengkap
+print(D + " ada di " + nama_lengkap + " = " + str(status))
+
+d = "d"
+status = d not in nama_lengkap
+print(d + " tidak ada di " + nama_lengkap + " = " + str(status))
