@@ -9,6 +9,10 @@ print(nama_lengkap)
 
 # 2. menghitung panjang
 panjang = len(nama_lengkap)
-print(panjang)
+print("panjang dari " + nama_lengkap + " = " + str(panjang))
 
-# 3. 
+# 3. operator untuk string
+# mengecek apakah ada komponen char atau string di string
+d = "Ucup"
+status = d in nama_lengkap
+print(d + " ada di " + nama_lengkap + " = " + str(status))
