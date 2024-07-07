@@ -24,3 +24,7 @@ print(D + " ada di " + nama_lengkap + " = " + str(status))
 d = "d"
 status = d not in nama_lengkap
 print(d + " tidak ada di " + nama_lengkap + " = " + str(status))
+
+# 4. mengulang string
+print("wk"*10)
+print(20*"wk")
