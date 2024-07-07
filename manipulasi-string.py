@@ -28,3 +28,5 @@ print(d + " tidak ada di " + nama_lengkap + " = " + str(status))
 # 4. mengulang string
 print("wk"*10)
 print(20*"wk")
+
+# 5. indexing
