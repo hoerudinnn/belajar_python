@@ -30,3 +30,10 @@ print("wk"*10)
 print(20*"wk")
 
 # 5. indexing
+print("index ke-0: " + nama_lengkap[0])
+print("index ke-1: " + nama_lengkap[1])
+print("index ke-(-1): " + nama_lengkap[-1])
+print("index ke-(-2): " + nama_lengkap[-2])
+print("index ke-[0:3]: " + nama_lengkap[0:4])
+print("index ke-[3:7]: " + nama_lengkap[3:8])
+print("index ke-[0,2,4,6,8,10]: " + nama_lengkap[0:11:2])
