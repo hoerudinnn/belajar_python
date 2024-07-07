@@ -53,3 +53,19 @@ print("char untuk ASCII 117 adalah " + chr(data)) # mencetak karakter untuk nila
 data = "otong surotong pararotong" # inisialisasi variabel data dengan nilai string
 jumlah = data.count("o") # menghitung jumlah karakter 'o' dalam string data
 print("jumlah o pada " + data + " = " + str(jumlah)) # mencetak jumlah karakter 'o' dalam data
+
+# operator dalam bentuk methods
+## merubah case dari string
+
+# merubah semua ke upper case
+salam = "bro"
+print("normal = " + salam)
+salam = salam.upper()
+print("normal = " + salam)
+
+# merubah semua ke lower case
+alay = "AkoeeEE kEcee AbiEzzZZz"
+print("normal = " + alay)
+alay = alay.lower()
+print("normal = " + alay)
+
