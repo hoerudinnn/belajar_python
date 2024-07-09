@@ -89,3 +89,15 @@ print("start = " + str(start_cek))
 
 end_cek = "Hoerudin Permana".endswith("Permana")
 print("end = " + str(end_cek))
+
+## penggabungan komponen join() dan split()
+pisah = ["Aku", "Sayang", "Kamu"]
+gabungan = ",".join(pisah)
+print(pisah)
+print(gabungan)
+gabungan = "ehem ".join(pisah)
+print(gabungan)
+
+gabungan = "Akuehemsayangehemkamu"
+print(gabungan)
+print(gabungan.split("ehem"))
