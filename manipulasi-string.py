@@ -69,3 +69,23 @@ print("normal = " + alay)
 alay = alay.lower()
 print("normal = " + alay)
 
+## pengecekan dengan isX method
+
+# contoh pengecekan lower case 
+salam = "sist"
+apakah_lower = salam.islower()
+print(salam + " is lower = " + str(apakah_lower))
+apakah_upper = salam.isupper()
+print(salam + " is upper = " + str(apakah_upper))
+
+# istitle
+judul = "Belajar Pemrograman Python"
+cek_judul = judul.istitle()
+print(judul + " is title = " + str(cek_judul))
+
+## ngecek komponen starswith() -> endswith()
+start_cek = "Hoerudin Permana".startswith("Hoerudin")
+print("start = " + str(start_cek))
+
+end_cek = "Hoerudin Permana".endswith("Permana")
+print("end = " + str(end_cek))
