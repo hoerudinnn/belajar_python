@@ -101,3 +101,5 @@ print(gabungan)
 gabungan = "Akuehemsayangehemkamu"
 print(gabungan)
 print(gabungan.split("ehem"))
+
+## alokasi karakter
