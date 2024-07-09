@@ -102,4 +102,19 @@ gabungan = "Akuehemsayangehemkamu"
 print(gabungan)
 print(gabungan.split("ehem"))
 
-## alokasi karakter
+## alokasi karakter rjust(), ljust(), center()
+kanan = "kanan".rjust(10)
+print("'"+kanan+"'")
+
+kiri = "kiri".ljust(10)
+print("'"+kiri+"'")
+
+tengah = "tengah".center(20,':')
+print("'"+tengah+"'")
+
+# mengembalikan strip()
+tengah = "tengah".strip(':')
+print(tengah)
+
+kanan = "kanan".strip()
+print(kanan)
