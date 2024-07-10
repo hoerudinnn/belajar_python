@@ -47,3 +47,9 @@ persentase = 0.045
 format_str = f"persentase = {persentase:.2%}"
 print(format_str)
 
+# melakukan operasi aritmatika
+harga = 1000
+jumlah = 5
+format_str = f"harga total = rp. {harga*jumlah:,}"
+
+print(format_str)
