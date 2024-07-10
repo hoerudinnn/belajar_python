@@ -53,3 +53,13 @@ jumlah = 5
 format_str = f"harga total = rp. {harga*jumlah:,}"
 
 print(format_str)
+
+# menampilkan angka lain (binary, octal, dan hexadecimal)
+angka = 255
+format_binary = f"binary = {bin(angka)}"
+format_octal = f"octal = {oct(angka)}"
+format_hexa = f"hexadecimal = {hex(angka)}"
+
+print(format_binary)
+print(format_octal)
+print(format_hexa)
