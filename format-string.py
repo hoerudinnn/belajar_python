@@ -41,3 +41,9 @@ format_plus = f"angka plus = {angka_plus:+.2f}"
 
 print(format_minus)
 print(format_plus)
+
+# format persen
+persentase = 0.045
+format_str = f"persentase = {persentase:.2%}"
+print(format_str)
+
