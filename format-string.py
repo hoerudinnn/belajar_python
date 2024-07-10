@@ -17,3 +17,8 @@ print(format_str)
 angka = 15
 format_str = f"bilangan bulat = {angka:d}"
 print(format_str)
+
+# bilangan dengan ordo ribuan
+angka = 2000000
+format_str = f"jutaan = {angka:,}"
+print(format_str)
