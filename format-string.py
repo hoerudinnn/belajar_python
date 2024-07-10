@@ -14,3 +14,6 @@ format_str = f"Angka = {angka}"
 print(format_str)
 
 # bilangan bulat
+angka = 15
+format_str = f"bilangan bulat = {angka:d}"
+print(format_str)
