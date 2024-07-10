@@ -35,9 +35,9 @@ print(format_str)
 
 # menampilkan tanda + atau -
 angka_minus = -10
-angka_plus = 10
-format_minus = f"angka minus = {angka_minus}"
-format_plus = f"angka plus = {angka_plus}"
+angka_plus = +100.12345
+format_minus = f"angka minus = {angka_minus:+d}"
+format_plus = f"angka plus = {angka_plus:+.2f}"
 
 print(format_minus)
 print(format_plus)
