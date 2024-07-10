@@ -28,8 +28,16 @@ angka = 2005.54321
 format_str = f"Desimal = {angka:.2f}"
 print(format_str)
 
-# format leading zero
+# menampilkan leading zero
 angka = 2005.54321
 format_str = f"Desimal = {angka:020.3f}"
 print(format_str)
 
+# menampilkan tanda + atau -
+angka_minus = -10
+angka_plus = 10
+format_minus = f"angka minus = {angka_minus}"
+format_plus = f"angka plus = {angka_plus}"
+
+print(format_minus)
+print(format_plus)
