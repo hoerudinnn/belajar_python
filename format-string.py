@@ -22,3 +22,8 @@ print(format_str)
 angka = 2000000
 format_str = f"jutaan = {angka:,}"
 print(format_str)
+
+# bilangan desimal
+angka = 2005.54321
+format_str = f"Desimal = {angka:.3f}"
+print(format_str)
