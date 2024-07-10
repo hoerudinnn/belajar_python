@@ -25,5 +25,11 @@ print(format_str)
 
 # bilangan desimal
 angka = 2005.54321
-format_str = f"Desimal = {angka:.3f}"
+format_str = f"Desimal = {angka:.2f}"
 print(format_str)
+
+# format leading zero
+angka = 2005.54321
+format_str = f"Desimal = {angka:020.3f}"
+print(format_str)
+
